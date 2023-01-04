@@ -18,6 +18,8 @@ function Info({weatherData}) {
       setIcon('FOG')
       else if(weatherData && weatherData.weather[0].description==='scattered clouds')
       setIcon('FOG')
+      else if(weatherData && weatherData.weather[0].description==='overcast clouds')
+      setIcon('CLOUDY')
   };
 updateIcon();
 },[weatherData]);
