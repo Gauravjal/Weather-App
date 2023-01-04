@@ -16,9 +16,9 @@ function Inputs(city) {
             (e)=>{
               setInput(e.target.value);
             }
-          } type="text" className="bg-white h-10 w-full px-12 rounded-lg focus:outline-none hover:cursor-pointer" name="">
+          } type="text" className="bg-white h-8 2xl:h-10  w-full px-12 rounded-lg focus:outline-none hover:cursor-pointer" name="">
           </input>
-          <button onClick={(e)=>handleClick()}><i className="ml-10 fill-white-500 absolute fa fa-search top-3 left-40"></i></button>
+          <button className="absolute top-0 right-0 mt-2 mr-2 px-2 py-0 text-sm font-medium rounded-md  text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500" onClick={(e)=>handleClick()}><i className="fa fa-search"></i></button>
         </div>
         
         

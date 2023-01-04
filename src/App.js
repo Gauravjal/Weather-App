@@ -21,14 +21,14 @@ function App() {
 },[city])
   return (
     <CityContext.Provider value={{city,setCity}}>
-    <div className="mx-auto max-w-screen-md mt-4 py-5 px-32 bg-cover bg-blue-600">
+    <div className="mx-auto max-w-screen-md mt-4 py-5 px-10 bg-cover bg-blue-600">
         <TopButtons weatherData={weatherData}/>
         <Inputs city={city}/>
         {/* <Local weatherData={weatherData}/>
         {console.log("check",weatherData)} */}
         <Info weatherData={weatherData}/>
         {/* {console.log("this one",weatherData.name)} */}
-        {/* {weatherData && <Forecast weatherData={weatherData}/>} */}
+        {weatherData && <Forecast weatherData={weatherData}/>}
         {/* <Forecast weatherData={weatherData}/> */}
     </div>
     </CityContext.Provider>
