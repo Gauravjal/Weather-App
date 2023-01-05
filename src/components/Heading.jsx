@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TopButtons({weatherData}) {
+function Heading({weatherData}) {
   return (
     <h1 className="font-Thermometer-500 align-items-center text-center text-white">
         {weatherData && weatherData.name}
@@ -8,4 +8,4 @@ function TopButtons({weatherData}) {
   )
 }
 
-export default TopButtons
+export default Heading
