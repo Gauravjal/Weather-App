@@ -34,11 +34,6 @@ The Weather App is a user-friendly tool designed to help you quickly access weat
 - **Frontend:** HTML, CSS, JavaScript
 - **API:** OpenWeatherMap API
 
-### Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Add any relevant screenshots of your app here to showcase its interface.*
-
 ### Contributions
 
 Contributions are welcome! If you find a bug or have an enhancement in mind, please open an issue or submit a pull request.
